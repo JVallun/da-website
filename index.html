@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deterministic Assurance — Independent Engineering Review | Pressure Equipment, Welding, Process Safety</title>
+  <meta name="description" content="Independent advisory and review across pressure equipment, welding and process safety. Every finding verified against the current code before it reaches you.">
+  <link rel="canonical" href="https://deterministicassurance.com/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTQwIj4KICA8IS0tIE1hcmsgQTI6IHN0ZXAtY2hlY2sgc2hpZWxkIHdpdGggREEg4oCUIEphY28gcmV2aXNpb24gMjAyNi0wNy0wNDogc21hbGwgREEgaW5zaWRlIHNvIGl0IHJlYWRzIGFzIHRoZSBjb21wYW55IG1hcmssIG5vdCBhIGdlbmVyaWMgc2lnbiAtLT4KICA8cGF0aCBkPSJNNjAgNiBMMTE0IDI0IFY3MiBDMTE0IDEwNCA5MiAxMjQgNjAgMTM2IEMyOCAxMjQgNiAxMDQgNiA3MiBWMjQgWiIgZmlsbD0iIzFhMmU0NSIvPgogIDxwYXRoIGQ9Ik02MCAxNSBMMTA1IDMwIFY3MSBDMTA1IDk4IDg3IDExNSA2MCAxMjYgQzMzIDExNSAxNSA5OCAxNSA3MSBWMzAgWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIiIG9wYWNpdHk9IjAuMyIvPgogIDxwYXRoIGQ9Ik0zMSA1OCBoOSB2MTAgaDkgdjEwIGg3IEw5MiAzNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjkuNSIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIvPgogIDx0ZXh0IHg9IjYwIiB5PSIxMTciIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjIxIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMiI+REE8L3RleHQ+Cjwvc3ZnPgo=">
+
+  <meta property="og:title" content="Deterministic Assurance — Independent Engineering Review | Pressure Equipment, Welding, Process Safety">
+  <meta property="og:description" content="Independent advisory and review across pressure equipment, welding and process safety. Every finding verified against the current code before it reaches you.">
+  <meta property="og:url" content="https://deterministicassurance.com/">
+  <meta property="og:type" content="website">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Deterministic Assurance",
+    "url": "https://deterministicassurance.com/",
+    "email": "info@deterministicassurance.com",
+    "telephone": "+27688533097",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pretoria",
+      "addressRegion": "Gauteng",
+      "addressCountry": "ZA"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Jaco Vallun"
+    },
+    "sameAs": "https://www.linkedin.com/company/deterministic-assurance"
+  }
+  </script>
+
+  <style>
+    :root {
+      --navy: #1a2e45;
+      --steel: #5a6b7d;
+      --rule: #b8c2cc;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: var(--navy);
+      background: var(--white);
+      line-height: 1.55;
+      font-size: 17px;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--navy); }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Header band */
+    .band {
+      background: var(--navy);
+      color: var(--white);
+    }
+    .band a { color: var(--white); }
+    .band-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 32px 24px 36px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      min-width: 0;
+    }
+    .brand svg {
+      width: 52px;
+      height: auto;
+      flex: 0 0 auto;
+      display: block;
+    }
+    .wordmark {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      line-height: 1.15;
+      margin: 0;
+    }
+    .descriptor {
+      margin: 10px 0 0;
+      color: var(--rule);
+      font-size: 15px;
+    }
+    .slogan {
+      margin: 6px 0 0;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      color: var(--rule);
+    }
+    .contact-head {
+      font-size: 15px;
+      text-align: right;
+      flex: 0 0 auto;
+    }
+    .contact-head a {
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .contact-head a:hover { text-decoration: underline; }
+    .contact-head div { margin-bottom: 4px; }
+
+    /* Sections */
+    main section {
+      padding: 40px 0;
+      border-top: 1px solid var(--rule);
+    }
+    main section:first-child { border-top: none; }
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0 0 20px;
+      letter-spacing: 0.3px;
+    }
+    p { margin: 0 0 16px; }
+    .lead {
+      font-size: 18px;
+      max-width: 62ch;
+    }
+
+    /* Services grid */
+    .services {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px 40px;
+    }
+    .services .item { min-width: 0; }
+    .services h3 {
+      font-size: 16px;
+      font-weight: 700;
+      margin: 0 0 6px;
+    }
+    .services p {
+      margin: 0;
+      color: var(--steel);
+      font-size: 15.5px;
+    }
+
+    /* Scope boundary note */
+    .note {
+      border: 1px solid var(--rule);
+      border-left: 3px solid var(--navy);
+      padding: 18px 22px;
+      margin: 24px 0 0;
+      background: var(--white);
+    }
+    .note p { margin: 0; }
+    .note strong { color: var(--navy); }
+
+    /* Contact section */
+    .contact-list { list-style: none; margin: 0; padding: 0; }
+    .contact-list li { margin: 0 0 10px; }
+    .contact-primary a {
+      font-size: 18px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .contact-primary a:hover { text-decoration: underline; }
+    .muted { color: var(--steel); }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 28px 0 44px;
+    }
+    footer p {
+      margin: 0 0 6px;
+      color: var(--steel);
+      font-size: 13.5px;
+    }
+
+    @media (max-width: 640px) {
+      body { font-size: 16px; }
+      .band-inner { flex-direction: column; gap: 20px; padding: 28px 24px 30px; }
+      .contact-head { text-align: left; }
+      .services { grid-template-columns: 1fr; gap: 24px; }
+      .wordmark { font-size: 19px; }
+      .brand svg { width: 46px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="band">
+    <div class="wrap band-inner">
+      <div class="brand">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" role="img" aria-label="Deterministic Assurance mark">
+          <path d="M60 6 L114 24 V72 C114 104 92 124 60 136 C28 124 6 104 6 72 V24 Z" fill="#1a2e45"/>
+          <path d="M60 15 L105 30 V71 C105 98 87 115 60 126 C33 115 15 98 15 71 V30 Z" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+          <path d="M31 58 h9 v10 h9 v10 h7 L92 34" fill="none" stroke="#ffffff" stroke-width="9.5" stroke-linecap="square" stroke-linejoin="miter"/>
+          <text x="60" y="117" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">DA</text>
+        </svg>
+        <div>
+          <p class="wordmark">DETERMINISTIC ASSURANCE</p>
+          <p class="descriptor">Source-verified mechanical integrity, welding &amp; process-safety review</p>
+          <p class="slogan">Every step verified.</p>
+        </div>
+      </div>
+      <div class="contact-head">
+        <div><a href="mailto:info@deterministicassurance.com">info@deterministicassurance.com</a></div>
+        <div><a href="tel:+27688533097">+27 68 853 3097</a></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <section aria-label="Introduction">
+      <p class="lead">Independent engineering advisory and review across the pressure-equipment, welding and process-safety lifecycle. The delivery model is built for speed and accuracy together. High-throughput review turns large document sets around faster than conventional review cycles, cutting review cost and keeping schedules moving. Every finding is verified against the current code, standard or procedure revision before it reaches you — accuracy you can check at the source, not take on trust.</p>
+    </section>
+
+    <section aria-labelledby="services-heading">
+      <h2 id="services-heading">What we do</h2>
+      <div class="services">
+        <div class="item">
+          <h3>Mechanical integrity &amp; pressure equipment</h3>
+          <p>API 510/570 inspection advisory, API 580 risk-based inspection programme support, PER/SANS 347 compliance review, inspection-plan and RBI verification checks.</p>
+        </div>
+        <div class="item">
+          <h3>Welding &amp; materials QA/QC</h3>
+          <p>WPS/PQR and welder-qualification review, fabrication surveillance, ISO 3834 readiness scans, materials and weldability assessments.</p>
+        </div>
+        <div class="item">
+          <h3>Independent NDT report review</h3>
+          <p>UT/PAUT/TOFD, MT, PT and RT report packs checked against acceptance criteria, personnel certification, calibration and coverage claims.</p>
+        </div>
+        <div class="item">
+          <h3>Process safety &amp; risk engineering</h3>
+          <p>PSM/mechanical-integrity programme build-out, HAZOP/What-If/FMECA study support and readiness reviews, MHI 2022 compliance preparation (MIPP, safety reports, licence packs).</p>
+        </div>
+        <div class="item">
+          <h3>Facility &amp; site safety assessments</h3>
+          <p>structured walkdown inspections of buildings and operating facilities against a defined checklist, delivered as a findings report with the completed checklist as the evidence pack; multi-site corporate programmes supported.</p>
+        </div>
+        <div class="item">
+          <h3>Deterministic procedure assurance</h3>
+          <p>step-by-step procedure/ITP follow-and-cross-check audits producing a source-linked deviation register: deviations caught before energy flows, not explained after.</p>
+        </div>
+        <div class="item">
+          <h3>Regulatory &amp; code compliance</h3>
+          <p>PED/CE conformity support, OHS Act / PER reviews, ASME/ISO/EN code compliance checks.</p>
+        </div>
+        <div class="item">
+          <h3>QMS &amp; vendor assurance</h3>
+          <p>ISO 3834 / ISO 9001-style audits, ITP development and review, supplier surveillance.</p>
+        </div>
+        <div class="item">
+          <h3>Failure investigation &amp; RCA</h3>
+          <p>weld, material and equipment failures with a defensible evidence trail.</p>
+        </div>
+        <div class="item">
+          <h3>Engineering document review at scale</h3>
+          <p>drawing/GD&amp;T checks and bulk document QA at a throughput that changes the economics of large review scopes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="engagements-heading">
+      <h2 id="engagements-heading">How engagements run</h2>
+      <p>Fixed-scope review packages (defined deliverable, lump-sum quote), day-rate advisory on- or off-site, or a monthly integrity-desk retainer. Every deliverable ships with its evidence pack — findings traced to the governing document revision.</p>
+      <div class="note">
+        <p><strong>Scope boundary, stated plainly:</strong> this is independent advisory, readiness and review work. Statutory AIA inspections and certification sign-offs remain with accredited inspection authorities — we scope, coordinate and package the evidence; the statutory instrument always belongs to the accreditation holder.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="who-heading">
+      <h2 id="who-heading">Who you work with</h2>
+      <p>Deterministic Assurance is the independent review desk of <strong>Jaco Vallun</strong> — Founder &amp; Principal, PSM &amp; MI Lead. API 510 / 570 / 580 · SAIW Level 2 Welding &amp; Fabrication Inspector · IIW International Welding Inspector (Standard) · AdvDip Mech Eng Tech. Career across notified-body and third-party inspection before founding the practice.</p>
+    </section>
+
+    <section aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Start a conversation</h2>
+      <ul class="contact-list">
+        <li class="contact-primary"><a href="mailto:info@deterministicassurance.com">info@deterministicassurance.com</a></li>
+        <li>Phone / WhatsApp <a href="tel:+27688533097">+27 68 853 3097</a></li>
+        <li class="muted">Pretoria, South Africa — serving clients internationally</li>
+        <li><a href="https://www.linkedin.com/company/deterministic-assurance">https://www.linkedin.com/company/deterministic-assurance</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Deterministic Assurance · K2026553882 (South Africa) · Reg. No. 2026/553882/07 · Pretoria, South Africa</p>
+      <p>© 2026 Deterministic Assurance. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
